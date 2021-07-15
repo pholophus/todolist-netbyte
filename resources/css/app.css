@@ -1,0 +1,16 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+html {
+    font-size: 14px
+}
+
+.editable {
+    outline: none !important;
+}
+
+.editable[contenteditable]:focus,
+.editable[contenteditable]:hover {
+    background: #e7eaec;
+}
