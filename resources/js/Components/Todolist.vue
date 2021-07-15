@@ -14,8 +14,8 @@
       </div>
     </div>
     <div class="ml-3">
-      <button @click="viewTasks(todolist)" v-show="showViewButton">
-        <i class="fas fa-eye"></i>
+      <button @click="viewTasks(todolist)" v-show="showViewButton" class="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded">
+        View task
       </button>
     </div>
   </div>
